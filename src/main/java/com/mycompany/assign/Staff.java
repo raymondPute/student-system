@@ -1,5 +1,6 @@
 package com.mycompany.assign;
 
+
 public class Staff extends Person {
     private String staffId;
     private String department;
@@ -9,7 +10,7 @@ public class Staff extends Person {
         this.staffId = staffId;
         this.department = department;
     }
-
+    
     @Override
     public void displayDetails() {
         super.displayDetails();
