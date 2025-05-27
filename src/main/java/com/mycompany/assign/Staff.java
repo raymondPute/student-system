@@ -10,6 +10,7 @@ public class Staff extends Person {
         this.department = department;
     }
 
+    
     @Override
     public void displayDetails() {
         super.displayDetails();
